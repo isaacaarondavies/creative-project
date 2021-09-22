@@ -1,0 +1,37 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+svg {
+  margin: 1%;
+  height: 2em;
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url("/images/nature-1632071863520-6175.jpg");
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.form-control {
+  border: 0!important;
+  border-bottom: 2px solid blue!important;
+  color: #fff!important;
+  background-clip: unset!important;
+  border-radius: 0!important;
+  transition: none!important;
+}
+
+.btn-outline-success {
+  color: gray!important;
+  border-color: gray!important;
+}
