@@ -11,6 +11,7 @@ html {
 svg {
   margin: 1%;
   height: 2em;
+  margin-right: 2%;
 }
 
 header {
@@ -27,6 +28,10 @@ ol {
 
 button:focus {
   outline-color: white;
+}
+
+a {
+  color: black!important;
 }
 
 .form-control {
@@ -50,6 +55,87 @@ button:focus {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: auto auto auto;
+}
+
+.main-page {
+  background-color: #e0e0e0;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto auto auto;
+}
+
+.explore-page {
+  background-color: #e0e0e0;
+  /* display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto auto auto; */
+}
+
+.messages-page {
+  background-color: #e0e0e0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto auto;
+}
+
+.messages-column {
+  grid-column: 1;
+  grid-row: 3;
+  padding: 20px;
+  border: 2px solid gray;
+  margin: 10px;
+  background-color: white;
+  /* box-shadow: 4px 4px 6px 0px black; */
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page-av {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  margin-top: 10%;
+  border-radius: 75px;
+  /* background-color: gray; */
+  background-image: url("/images/IMG-3679.JPG");
+  background-position: center;
+  background-size: cover;
+}
+
+.messages-av {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-left: 30%;
+  margin-bottom: 0%;
+  margin-top: 10%;
+  border-radius: 75px;
+  /* background-color: gray; */
+  background-image: url("/images/IMG-3679.JPG");
+  background-position: center;
+  background-size: cover;
+}
+
+.highlights {
+  grid-column: 2;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.highlights-av {
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin: 15px;
+  border-radius: 60px;
+  /* background-color: gray; */
+  background-image: url("/images/IMG-3679.JPG");
+  background-position: center;
+  background-size: cover;
 }
 
 .profile-av {
@@ -101,6 +187,10 @@ margin-top: 10%;
   background-color: white;
   /* box-shadow: 4px 4px 6px 0px black; */
   border-radius: 1em;
+}
+
+.message {
+  display: flex;
 }
 
 .settings-btn {
@@ -185,4 +275,17 @@ margin-top: 10%;
   height: 300px;
   background-position: center;
   background-size: cover;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  height: 75px;
+  flex: 1;
+  text-align: center;
+  color: black;
 }
