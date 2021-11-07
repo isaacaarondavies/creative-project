@@ -21,7 +21,7 @@ import App from './App.vue';
 import router from './starterRouter';
 
 import './registerServiceWorker'
-// import NowUiKit from './plugins/now-ui-kit.js';
+import NowUiKit from './plugins/now-ui-kit.js';
 
 Vue.config.productionTip = false;
 
