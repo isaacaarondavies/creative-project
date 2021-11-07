@@ -28,7 +28,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://github.com/isaacaarondavies/creative-project.git">
               Isaac's Github
             </a>
           </li>
