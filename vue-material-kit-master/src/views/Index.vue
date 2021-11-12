@@ -33,11 +33,10 @@
                   <div class="icon icon-info">
                     <md-icon>chat</md-icon>
                   </div>
-                  <h4 class="info-title">Free Chat</h4>
+                  <h4 class="info-title">Team Chat</h4>
                   <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
+                    Connect with other athletes and organizations
+                    through our network .
                   </p>
                 </div>
               </div>
