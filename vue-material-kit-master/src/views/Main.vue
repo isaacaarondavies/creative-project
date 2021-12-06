@@ -164,6 +164,21 @@
                         <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
                       </svg> Hype!
                     </button>
+                    <div id="app">
+                        <form v-on:submit.prevent="addComment">
+                            <input type="text" v-model="newComment">
+                            <button type="submit">Add</button>
+                        </form>
+                        <ul>
+                            <li v-for="item in sortedComments">
+                                <span class="glyphicon glyphicon-thumbs-up" v-on:click="incrementUpvotes(item)"></span> {{item.title}} - upvotes: {{item.upvotes}}
+                            </li>
+                        </ul>
+                    </div>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+                    <script src="javascripts/app.js"></script>
+
                     <button class="footer-buttons">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M3.5 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 14 6.5v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-8A1.5 1.5 0 0 1 3.5 5h2a.5.5 0 0 1 0 1h-2z"/>
