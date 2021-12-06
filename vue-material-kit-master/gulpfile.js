@@ -10,4 +10,4 @@ function license(cb) {
     ],
     cb
   );
-});
+};
