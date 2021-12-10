@@ -6,7 +6,6 @@
           <div
             class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
           >
-
             <div class="section text-center">
               <div class="container">
               <h1 class="title" style="text-align: left;">Highlights</h1>
