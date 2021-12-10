@@ -169,7 +169,7 @@
                             <button type="submit">Add</button>
                         </form>
                         <ul>
-                            <li v-for="item in sortedComments">
+                            <li v-for="item in sortedComments" :key="item.id">
                                 <span class="glyphicon glyphicon-thumbs-up" v-on:click="incrementUpvotes(item)"></span> {{item.title}} - upvotes: {{item.upvotes}}
                             </li>
                         </ul>
